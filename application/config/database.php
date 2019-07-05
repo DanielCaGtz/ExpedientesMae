@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => 'root',
-	'database' => 'mae_updated',
+	'hostname' => 'mysql.hostinger.mx',
+	'username' => 'u465027285_mae',
+	'password' => '12345678',
+	'database' => 'u465027285_mae',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,

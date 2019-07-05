@@ -35,7 +35,7 @@ $config['modules_locations'] = array(
 | a PHP script and you can easily do that on your own.
 |
 */
-$nombre_ruta_host = '/expedientes/';
+$nombre_ruta_host = '/';
 $config['nombre_ruta_host'] = $nombre_ruta_host;
 $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http").'://'.$_SERVER['HTTP_HOST'].$nombre_ruta_host;
 
@@ -328,7 +328,7 @@ $config['cache_query_string'] = FALSE;
 | http://codeigniter.com/user_guide/libraries/encryption.html
 |
 */
-$config['encryption_key'] = 'MIGfMA0GCSqGSIb3DQR8APvniGY/IemkVx7aIV61rAMBv9raApwOSncSMd73jSYi7ayuceZ7machu2ekuput7aruPe2A5ETbAlsOWpdKDS9wMSDOsaWpsLAwvHSuvpu7QYYdXQIDAQAB';
+$config['encryption_key'] = 'MIGfMA0GCSqGSoAwiE0dKAlxmASfrmkVx7aIV61rAMBv9raApwOSncSMd73jSYi7ayuceZ7machu2ekuput7aruPe2A5ETbAlsOWpdKDS9wMSDOsaWpsLAwvHSuvpu7QYYdXQIDAQAB';
 
 /*
 |--------------------------------------------------------------------------
@@ -382,9 +382,9 @@ $config['encryption_key'] = 'MIGfMA0GCSqGSIb3DQR8APvniGY/IemkVx7aIV61rAMBv9raApw
 |
 */
 $config['sess_driver'] = 'files';
-$config['sess_cookie_name'] = '7ayuceZ7machu2ekuput7ar5Q0iSocmEyxbsSAwwTpQC8s';
+$config['sess_cookie_name'] = '7ayuceZ7machu2eku9AowEMspaSLQ0iSocmEyxbsSAwwTpQC8s';
 $config['sess_use_database']	= FALSE;
-$config['sess_expiration'] = 3600;
+$config['sess_expiration'] = 0;
 $config['sess_save_path'] = NULL;
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 300;
