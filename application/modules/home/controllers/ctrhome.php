@@ -347,10 +347,17 @@ class ctrHome extends MX_Controller{
 		print json_encode(array("result"=>TRUE));
 	}
 
-	public function eliminar_expedientes_datos(){
-		$id=$this->security->xss_clean($this->input->post("id"));
-		$this->mdllogin->deleteData("expedientes_datos",$id,"id");
-		print json_encode(array("result"=>TRUE));
+	public function eliminar_expedientes_datos () {
+		$id = $this->security->xss_clean($this->input->post("id"));
+		$this->mdllogin->deleteData("expedientes_datos", $id, "id");
+		$this->mdllogin->insertData("log", array(
+			"idUsuario" => $this->session->userdata("id"),
+			"tabla" => "expedientes_datos",
+			"accion" => 'eliminacion',
+			"idTabla" => $id,
+			"date_start" => date('Y-m-d H:i:s')
+ 		));
+		print json_encode(array("result" => TRUE));
 	}
 
 	public function save_campos_multiples(){
@@ -535,46 +542,100 @@ class ctrHome extends MX_Controller{
 		print json_encode(array("success"=>$s));
 	}
 
-	public function editar_formulario(){
-		$data=$this->security->xss_clean($this->input->post("data"));
-		$id_exp=$this->security->xss_clean($this->input->post("id_exp"));
-		$s=TRUE;
-		if(!empty($data)){
-			$tipos=array("varchar"=>"dato_var", "date"=>"dato_date", "combo"=>"dato_int", "multicombo"=>"dato_var", "time"=>"dato_time", "text"=>"dato_text", "email"=>"dato_var", "radio"=>"dato_int");
-			foreach($data AS $e => $key){
-				if($key[1]!="multicombo"){
-					if(($tipos[$key[1]]=="dato_date" || $tipos[$key[1]]=="dato_time") && strlen($key[0])==0){
-						if(intval($key[5])>0) $temp_data="NULL";
-						else $temp_data=NULL;
-					}else $temp_data=$key[0];
-				}else{
-					if(is_array($key[0])){
-						$temp_data=$this->mdllogin->insertData(array("date_start"=>date('Y-m-d H:i:s')),"bitacora");
-						foreach($key[0] AS $i => $item){
-							$this->mdllogin->insertData(array("bitacora_id"=>$temp_data,"id_inventario"=>$item[0],"cantidad"=>$item[1]),"bitacora_detalles");
+	public function editar_formulario () {
+		$data = $this->security->xss_clean($this->input->post("data"));
+		$id_exp = $this->security->xss_clean($this->input->post("id_exp"));
+		$s = TRUE;
+		if (!empty($data)) {
+			$tipos = array(
+				"varchar" => "dato_var",
+				"date" => "dato_date",
+				"combo" => "dato_int",
+				"multicombo" => "dato_var",
+				"time" => "dato_time",
+				"text" => "dato_text",
+				"email" => "dato_var",
+				"radio" => "dato_int"
+			);
+			foreach ($data AS $e => $key) {
+				if ($key[1] !== "multicombo") {
+					if (($tipos[$key[1]] === "dato_date" || $tipos[$key[1]] === "dato_time") && strlen($key[0]) === 0) {
+						if (intval($key[5]) > 0) {
+							$temp_data = "NULL";
+						} else {
+							$temp_data = NULL;
 						}
-					}else $temp_data=0;
+					} else {
+						$temp_data = $key[0];
+					}
+				} else {
+					if (is_array($key[0])) {
+						$temp_data = $this->mdllogin->insertData(array(
+							"date_start" => date('Y-m-d H:i:s'),
+							"idUsuario" => $this->session->userdata('id')
+						), "bitacora");
+						foreach ($key[0] AS $i => $item) {
+							$this->mdllogin->insertData(array(
+								"bitacora_id" => $temp_data,
+								"id_inventario" => $item[0],
+								"cantidad" => $item[1],
+								"idUsuario" => $this->session->userdata('id')
+							), "bitacora_detalles");
+						}
+					} else {
+						$temp_data = 0;
+					}
 				}
 				
-				if(is_array($temp_data)) $temp_data=implode(" ",$temp_data);
-				$temp=array(
+				if (is_array($temp_data)) $temp_data = implode(" ", $temp_data);
+
+				$temp = array(
 					"campos_expedientes_id"	=> $key[3],
-					"cat_campos_id"			=> $key[4],
-					"expedientes_id"		=> $id_exp,
-					"campos_bloques_id"		=> $key[2],
-					"expedientes_datos_id"	=> intval($key[6]),
-					$tipos[$key[1]]			=> $temp_data,
-					"date_start"			=> date('Y-m-d H:i:s')
+					"cat_campos_id"	=> $key[4],
+					"expedientes_id" => $id_exp,
+					"campos_bloques_id"	=> $key[2],
+					"expedientes_datos_id" => intval($key[6]),
+					$tipos[$key[1]]	=> $temp_data,
+					"date_start" => date('Y-m-d H:i:s'),
+					"idUsuario" => $this->session->userdata('id')
 				);
-				if(intval($key[5])>0){
-					$this->mdllogin->editData($temp,"campos_datos",$key[5],"id",$where=";");
-				}else{
-					$id_temp=$this->mdllogin->insertData($temp,"campos_datos");
-					if($id_temp===FALSE) $s=FALSE;
+				if (intval($key[5]) > 0) {
+					$data_before = $this->get_data("*", "campos_datos", "id = '".$key[5]."'");
+					$this->mdllogin->editData($temp, "campos_datos", $key[5], "id");
+					if ($data_before !== FALSE) {
+						$data_before = $data_before[0];
+						foreach ($temp AS $numeral => $element) {
+							if (array_key_exists($numeral, $data_before) && $data_before[$numeral] != $element
+								&& $numeral !== "date_start" && $numeral !== "idUsuario") {
+								$this->mdllogin->insertData(array(
+									"idUsuario" => $this->session->userdata('id'),
+									"tabla" => "campos_datos",
+									"accion" => 'edicion',
+									"idTabla" => $key[5],
+									"columna" => $numeral,
+									"nuevo_valor" => $element,
+									"viejo_valor" => $data_before[$numeral],
+									"date_start" => date('Y-m-d H:i:s')
+								), "log");
+							}
+						}
+					}
+				} else {
+					$id_temp = $this->mdllogin->insertData($temp, "campos_datos");
+					$this->mdllogin->insertData(array(
+						"idUsuario" => $this->session->userdata('id'),
+						"tabla" => "campos_datos",
+						"accion" => 'adicion',
+						"idTabla" => $id_temp,
+						"date_start" => date('Y-m-d H:i:s')
+					), "log");
+					if (!$id_temp) $s = FALSE;
 				}
 			}
-		}else $s=FALSE;
-		print json_encode(array("success"=>$s));
+		} else { 
+			$s = FALSE;
+		}
+		print json_encode(array("success" => $s));
 	}
 
 	public function save_expedientes_campos(){
