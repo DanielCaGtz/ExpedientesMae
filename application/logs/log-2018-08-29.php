@@ -1,0 +1,212 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2018-08-29 08:20:12 --> Query error: Subquery returns more than 1 row
+ERROR - 2018-08-29 08:20:12 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 08:20:12 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 08:20:12 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /usr/local/var/www/expedientes/application/modules/home/controllers/ctrpages.php:23) /usr/local/var/www/expedientes/system/core/Common.php 443
+ERROR - 2018-08-29 08:39:40 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`expedientes_mae`.`campos_datos`, CONSTRAINT `fk_campos_datos_expedientes_datos1` FOREIGN KEY (`expedientes_datos_id`) REFERENCES `expedientes_datos` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2018-08-29 08:39:40 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 08:39:40 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 08:39:53 --> Query error: Cannot add or update a child row: a foreign key constraint fails (`expedientes_mae`.`campos_datos`, CONSTRAINT `fk_campos_datos_expedientes_datos1` FOREIGN KEY (`expedientes_datos_id`) REFERENCES `expedientes_datos` (`id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2018-08-29 08:39:53 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 08:39:53 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 09:20:00 --> Query error: Subquery returns more than 1 row
+ERROR - 2018-08-29 09:20:00 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 09:20:00 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 09:20:00 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /usr/local/var/www/expedientes/application/modules/home/controllers/ctrpages.php:23) /usr/local/var/www/expedientes/system/core/Common.php 443
+ERROR - 2018-08-29 09:20:49 --> Query error: Subquery returns more than 1 row
+ERROR - 2018-08-29 09:20:49 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 09:20:49 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 09:20:49 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /usr/local/var/www/expedientes/application/modules/home/controllers/ctrpages.php:23) /usr/local/var/www/expedientes/system/core/Common.php 443
+ERROR - 2018-08-29 09:20:56 --> Query error: Subquery returns more than 1 row
+ERROR - 2018-08-29 09:20:56 --> Language file contains no data: language/EN/db_lang.php
+ERROR - 2018-08-29 09:20:56 --> Could not find the language line "db_error_heading"
+ERROR - 2018-08-29 09:20:56 --> Severity: Warning  --> Cannot modify header information - headers already sent by (output started at /usr/local/var/www/expedientes/application/modules/home/controllers/ctrpages.php:23) /usr/local/var/www/expedientes/system/core/Common.php 443
+ERROR - 2018-08-29 09:38:36 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:38:37 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:42 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:45:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:04 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 09:46:05 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:41:22 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:33 --> Severity: Notice  --> Undefined variable: controller /usr/local/var/www/expedientes/application/modules/home/controllers/ctrpages.php 142
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:53:44 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:54:43 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:27 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:55:28 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:01 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:02 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:56:48 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:19 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:20 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:20 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:20 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
+ERROR - 2018-08-29 11:58:20 --> Severity: Notice  --> Undefined variable: options /usr/local/var/www/expedientes/addons/phpexcel/Classes/PHPExcel/Settings.php 384
