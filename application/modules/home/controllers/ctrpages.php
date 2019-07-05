@@ -11,6 +11,17 @@ class ctrPages extends MX_Controller{
 		include FILE_ROUTE_FULL."addons/phpexcel/Classes/PHPExcel/IOFactory.php";
 	}
 
+	public function view_log_history () {
+		if (Modules::run('home/ctrtools/check_user_permission', 'allow_log')) {
+			$data["controller"] = Modules::run('home/ctrtools/get_self');
+			$data["js_files"] = array('js/controllers/log_activity.js');
+			print $this->load->view("vwheader", $data, TRUE);
+			print $this->load->view("vwaside", $data, TRUE);
+			print $this->load->view("actividad/vwmain", $data, TRUE);
+			print $this->load->view("vwfooter_js", $data, TRUE);
+		} else redirect(base_url());
+	}
+
 	public function editar_ingresos(){
 		#if($this->check_user_permission("allow_ingresos")){
 		if(array_key_exists("rc",$_GET)){

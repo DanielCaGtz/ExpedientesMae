@@ -115,6 +115,12 @@
 							<i class="fa fa-th"></i> <span>Inventario</span>
 						</a>
 					</li>
+					<?php } if($controller->check_user_permission("allow_log")){ ?>
+					<li class="<?php echo consulta_uri(array('ver_actividad')); ?>">
+						<a href="<?php echo base_url(); ?>ver_actividad">
+							<i class="fa fa-clipboard"></i> <span>Ver Actividad</span>
+						</a>
+					</li>
 					<?php } ?>
 					<li class="treeview <?php echo consulta_uri(array('test')); ?>" style="display:none;">
 						<a href="#">

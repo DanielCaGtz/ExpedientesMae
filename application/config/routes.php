@@ -68,3 +68,4 @@ $route['editar_opciones'] = 'home/ctrhome/editor_de_opciones';
 $route['editar_paquetes'] = 'home/ctrhome/editor_de_paquetes';
 $route['editar_formulario/([0-9=]+)'] = 'home/ctrhome/editar_campos_datos/$1';
 $route['editar_reportes'] = 'home/ctrreportes/cargar_reportes';
+$route['ver_actividad'] = 'home/ctrpages/view_log_history';
