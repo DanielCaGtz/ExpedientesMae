@@ -84,8 +84,10 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
-#defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/expedientes/');
-#/home/u465027285/public_html/telcel
-defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/home/u465027285/public_html/expedientes_mae/');
+$whitelist = array('127.0.0.1', '::1');
+if (in_array($_SERVER['REMOTE_ADDR'], $whitelist))
+  defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/usr/local/var/www/expedientes/');
+else
+  defined('FILE_ROUTE_FULL')     OR define('FILE_ROUTE_FULL','/home/u465027285/public_html/expedientes_mae/');
 
 defined('CURRENT_VERSION')		OR define('CURRENT_VERSION','1.2.1');
